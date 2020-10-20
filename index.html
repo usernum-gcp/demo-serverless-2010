@@ -1,0 +1,63 @@
+<head>
+	<link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/4.0.0/firebaseui.css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:300,400,700&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<div id="app">
+
+	<!-- <img src="https://firebasestorage.googleapis.com/v0/b/fir-images-a61c9.appspot.com/o/firestore.png?alt=media&token=56d039dc-4a6c-477b-a153-a4bb8234646f" /> -->
+	<!-- <img src="https://firebasestorage.googleapis.com/v0/b/fir-images-a61c9.appspot.com/o/hosting.png?alt=media&token=57c8adb6-08c4-43f7-9395-4c299896a36c" /> -->
+	<img src="https://firebasestorage.googleapis.com/v0/b/fir-images-a61c9.appspot.com/o/codelab.png?alt=media&token=f45f808c-ce40-4b34-944c-8d8fac00e13d" />
+
+	<section id="event-details-container">
+		<h1>Serverless Demo</h1>
+
+		<p><i class="material-icons">calendar_today</i> October 20</p>
+		<p><i class="material-icons">location_city</i> Virtual Google</p>
+		<button id="startRsvp">Log in</button>
+	</section>
+	<section id="description-container">
+		<!-- ... -->
+
+	</section>
+
+
+	<section id="firebaseui-auth-container"></section>
+
+	<section id="description-container">
+		<h2>What we'll be doing</h2>
+		<p>Join us for a Serverless Summit!</p>
+	</section>
+
+	<section id="guestbook-container">
+		<hr>
+		<p id="number-attending"></p>
+
+		<h2>Are you ready to take the lab?</h2>
+		<button id="rsvp-yes">YES</button>
+		<button id="rsvp-no">NO</button>
+		<section id="lab-container" display="none">
+			<p id="lab-token-id"></p>
+			<p>Recommended lab:
+				<a id="lab-link" text="sdfdsf" href="https://www.qwiklabs.com/focuses/12682?parent=catalog"
+					title="start">Push to start the lab</a>
+			</p>
+		</section>
+		<h2>Discussion</h2>
+		<hr>
+		<form id="leave-message">
+			<label>Leave a message: </label>
+			<input type="text" id="message">
+			<button type="submit">
+       <i class="material-icons">send</i>
+       <span>SEND</span>
+     </button>
+		</form>
+		<section id="guestbook"></section>
+
+	</section>
+
+</div>
